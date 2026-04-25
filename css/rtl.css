@@ -1,0 +1,13 @@
+/* RTL Overrides for Arabic */
+.rtl { font-family: 'Cairo', 'Tajawal', sans-serif; direction: rtl; text-align: right; }
+.rtl .header-top-inner { flex-direction: row-reverse; }
+.rtl .top-nav { flex-direction: row-reverse; }
+.rtl .header-actions { flex-direction: row-reverse; }
+.rtl .about-inner { flex-direction: row-reverse; }
+.rtl .hero-inner { flex-direction: row-reverse; }
+.rtl .contact-inner { direction: rtl; }
+.rtl .form-group input,
+.rtl .form-group textarea { text-align: right; direction: rtl; }
+.rtl .carousel-btn.prev i::before { content: "\f054"; }
+.rtl .carousel-btn.next i::before { content: "\f053"; }
+.rtl .hero-text h1 { text-align: right; }

@@ -1,0 +1,9 @@
+/* LTR Overrides for English */
+.ltr { font-family: 'Inter', sans-serif; direction: ltr; text-align: left; }
+.ltr h1, .ltr h2, .ltr h3, .ltr h4 { font-family: 'Playfair Display', serif; }
+.ltr .hero-text h1 span { font-family: 'Playfair Display', serif; font-style: italic; }
+.ltr .section-title::after { margin: 14px 0 0 0; }
+.ltr .section-title.text-center::after { margin: 14px auto 0; }
+.ltr .why-card { text-align: center; }
+.ltr .about-inner { flex-direction: row-reverse; }
+.ltr .hero-inner { flex-direction: row; }
