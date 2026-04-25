@@ -688,6 +688,7 @@ sort($categories);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>الواردات - كرم لتجارة التوابل</title>
+    <link rel="icon" href="../assets/logo.png" type="image/png">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/rtl.css">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -727,7 +728,7 @@ sort($categories);
 <!-- ========== PRODUCTS HEADER ========== -->
 <section class="products-header">
     <div class="container">
-        <h1>منتجاتنا المميزة</h1>
+        <h1>منتجاتنا الواردة</h1>
         <p>اكتشف مجموعتنا الواسعة من التوابل والأعشاب والمنتجات الزراعية عالية الجودة المصدره من أجمل مناطق العالم.</p>
     </div>
 </section>

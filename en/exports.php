@@ -667,14 +667,14 @@ $search_query = $_GET['search'] ?? '';
 // Filter products
 $filtered_products = $products;
 if ($category_filter !== 'all') {
-    $filtered_products = array_filter($filtered_products, function($p) use ($category_filter) {
+    $filtered_products = array_filter($filtered_products, function ($p) use ($category_filter) {
         return $p['category'] === $category_filter;
     });
 }
 if ($search_query) {
-    $filtered_products = array_filter($filtered_products, function($p) use ($search_query) {
-        return stripos($p['name'], $search_query) !== false || 
-               stripos($p['description'], $search_query) !== false;
+    $filtered_products = array_filter($filtered_products, function ($p) use ($search_query) {
+        return stripos($p['name'], $search_query) !== false ||
+            stripos($p['description'], $search_query) !== false;
     });
 }
 
@@ -688,6 +688,7 @@ sort($categories);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exports - Karam Spices Importer</title>
+    <link rel="icon" href="../assets/logo.png" type="image/png">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/ltr.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -727,7 +728,7 @@ sort($categories);
 <!-- ========== PRODUCTS HEADER ========== -->
 <section class="products-header">
     <div class="container">
-        <h1>Our Premium Products</h1>
+        <h1>Our Export Products</h1>
         <p>Discover our extensive collection of high-quality spices, herbs, and agricultural products sourced from the finest regions worldwide.</p>
     </div>
 </section>

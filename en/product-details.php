@@ -57,7 +57,7 @@ $products = [
         'category' => 'Spices',
         'origin' => 'India',
         'description' => 'Premium white pepper with mild flavor and aromatic properties, perfect for gourmet cooking.',
-        'full_description' => 'Our premium white pepper is derived from the same plant as black pepper, but the outer fruit hull is removed before drying, resulting in a milder flavor profile. This meticulous process involves soaking the ripe pepper berries in water for several days to ferment and soften the outer layer, which is then rubbed off, leaving only the inner seed. The resulting white pepper has a delicate, earthy flavor with subtle citrus notes that complements without overpowering dishes. It\'s particularly prized in European cuisine for white sauces, cream dishes, and light-colored foods where the appearance of black specks would be undesirable.',
+        'full_description' => "Our premium white pepper is derived from the same plant as black pepper, but the outer fruit hull is removed before drying, resulting in a milder flavor profile. This meticulous process involves soaking the ripe pepper berries in water for several days to ferment and soften the outer layer, which is then rubbed off, leaving only the inner seed. The resulting white pepper has a delicate, earthy flavor with subtle citrus notes that complements without overpowering dishes. It's particularly prized in European cuisine for white sauces, cream dishes, and light-colored foods where the appearance of black specks would be undesirable.",
         'uses' => ['Cooking', 'Food Industry', 'Medicine'],
         'season' => 'Year-round',
         'availability' => 'In Stock',
@@ -143,7 +143,7 @@ $products = [
         'category' => 'Spices',
         'origin' => 'Egypt',
         'description' => 'Sweet, aromatic seeds with licorice-like flavor, essential for baking and beverages.',
-        'full_description' => 'Anise, also known as aniseed, is an annual herb cultivated for its highly aromatic seeds. The distinctive licorice-like flavor comes from anethole, an essential oil that makes up 2-3% of the seed\'s composition. Egyptian anise is particularly prized for its high essential oil content and superior flavor profile. The seeds have been used since ancient times in both culinary and medicinal applications. In the kitchen, anise is indispensable in breads, cakes, and confectionery, while in traditional medicine, it\'s renowned for its digestive and respiratory benefits. Our premium anise seeds are carefully selected and processed to preserve their aromatic oils.',
+        'full_description' => "Anise, also known as aniseed, is an annual herb cultivated for its highly aromatic seeds. The distinctive licorice-like flavor comes from anethole, an essential oil that makes up 2-3% of the seed's composition. Egyptian anise is particularly prized for its high essential oil content and superior flavor profile. The seeds have been used since ancient times in both culinary and medicinal applications. In the kitchen, anise is indispensable in breads, cakes, and confectionery, while in traditional medicine, it's renowned for its digestive and respiratory benefits. Our premium anise seeds are carefully selected and processed to preserve their aromatic oils.",
         'uses' => ['Baking', 'Beverages', 'Medicine'],
         'season' => 'Summer',
         'availability' => 'In Stock',
@@ -616,7 +616,7 @@ $products = [
         'category' => 'Spices',
         'origin' => 'India',
         'description' => 'Versatile spice with citrusy notes, essential in many cuisines.',
-        'full_description' => 'Coriander is one of the world\'s oldest spices, with evidence of its use dating back to 5000 BCE. Our premium Indian coriander seeds are carefully harvested when fully mature to ensure maximum flavor and essential oil content. The seeds have a complex flavor profile that combines citrus, floral, and slightly sweet notes, making them incredibly versatile in cooking. Coriander is used in virtually every cuisine worldwide, from Indian curries to Mexican salsas to European pickles. The seeds are also valued for their medicinal properties, including digestive and anti-inflammatory benefits.',
+        'full_description' => "Coriander is one of the world's oldest spices, with evidence of its use dating back to 5000 BCE. Our premium Indian coriander seeds are carefully harvested when fully mature to ensure maximum flavor and essential oil content. The seeds have a complex flavor profile that combines citrus, floral, and slightly sweet notes, making them incredibly versatile in cooking. Coriander is used in virtually every cuisine worldwide, from Indian curries to Mexican salsas to European pickles. The seeds are also valued for their medicinal properties, including digestive and anti-inflammatory benefits.",
         'uses' => ['Cooking', 'Medicine', 'Perfumery'],
         'season' => 'Year-round',
         'availability' => 'In Stock',
@@ -917,7 +917,7 @@ $products = [
         'category' => 'Fruits',
         'origin' => 'Syria',
         'description' => 'Fresh citrus fruits with bright flavor and aromatic zest.',
-        'full_description' => 'Our premium Syrian lemons are grown in the Mediterranean climate that produces some of the world\'s finest citrus fruits. These bright yellow fruits are prized for their juicy pulp and aromatic zest, which contain high levels of essential oils and vitamin C. Syrian lemons have a perfect balance of acidity and sweetness, making them ideal for both culinary and beverage applications. The fruits are carefully hand-picked at peak ripeness and processed to preserve their fresh flavor and nutritional value.',
+        'full_description' => "Our premium Syrian lemons are grown in the Mediterranean climate that produces some of the world's finest citrus fruits. These bright yellow fruits are prized for their juicy pulp and aromatic zest, which contain high levels of essential oils and vitamin C. Syrian lemons have a perfect balance of acidity and sweetness, making them ideal for both culinary and beverage applications. The fruits are carefully hand-picked at peak ripeness and processed to preserve their fresh flavor and nutritional value.",
         'uses' => ['Food', 'Beverages', 'Cleaning'],
         'season' => 'Year-round',
         'availability' => 'In Stock',
@@ -960,7 +960,7 @@ $products = [
         'category' => 'Legumes',
         'origin' => 'Canada',
         'description' => 'Nutritious legumes high in protein and essential minerals.',
-        'full_description' => 'Lentils are one of the world\'s oldest cultivated crops, with archaeological evidence dating back over 9,000 years. Our premium Canadian lentils are grown in the ideal climate conditions of the Canadian prairies, where the long summer days and cool nights produce lentils with exceptional quality and nutritional value. These small, disk-shaped legumes come in various colors including green, brown, red, and black, each with its own unique flavor and cooking characteristics. Lentils are an excellent source of plant-based protein, dietary fiber, and essential minerals.',
+        'full_description' => "Lentils are one of the world's oldest cultivated crops, with archaeological evidence dating back over 9,000 years. Our premium Canadian lentils are grown in the ideal climate conditions of the Canadian prairies, where the long summer days and cool nights produce lentils with exceptional quality and nutritional value. These small, disk-shaped legumes come in various colors including green, brown, red, and black, each with its own unique flavor and cooking characteristics. Lentils are an excellent source of plant-based protein, dietary fiber, and essential minerals.",
         'uses' => ['Food', 'Industry', 'Animal Feed'],
         'season' => 'Year-round',
         'availability' => 'In Stock',
@@ -1304,7 +1304,7 @@ $products = [
         'category' => 'Spices',
         'origin' => 'India',
         'description' => 'Golden spice with earthy flavor and powerful anti-inflammatory properties.',
-        'full_description' => 'Turmeric is a golden-yellow spice that has been used for thousands of years in both cooking and traditional medicine. Our premium Indian turmeric is grown in the ideal climate conditions that produce rhizomes with high curcumin content and vibrant color. The rhizomes are carefully harvested, processed, and ground to preserve their distinctive earthy flavor and numerous health benefits. Turmeric\'s active compound, curcumin, is responsible for its powerful anti-inflammatory and antioxidant properties.',
+        'full_description' => "Turmeric is a golden-yellow spice that has been used for thousands of years in both cooking and traditional medicine. Our premium Indian turmeric is grown in the ideal climate conditions that produce rhizomes with high curcumin content and vibrant color. The rhizomes are carefully harvested, processed, and ground to preserve their distinctive earthy flavor and numerous health benefits. Turmeric's active compound, curcumin, is responsible for its powerful anti-inflammatory and antioxidant properties.",
         'uses' => ['Cooking', 'Medicine', 'Coloring'],
         'season' => 'Year-round',
         'availability' => 'In Stock',
@@ -1366,6 +1366,7 @@ if (!$product) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="../assets/logo.png" type="image/png">
     <title><?= htmlspecialchars($product['name']) ?> - Product Details | Karam Spices Importer</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/ltr.css">
@@ -1839,7 +1840,7 @@ if (!$product) {
         <h2>Related Products</h2>
         <div class="related-grid">
             <?php
-            $related_products = array_filter($products, function($p) use ($product) {
+            $related_products = array_filter($products, function ($p) use ($product) {
                 return $p['id'] != $product['id'] && $p['category'] === $product['category'];
             });
             $related_products = array_slice($related_products, 0, 4);
