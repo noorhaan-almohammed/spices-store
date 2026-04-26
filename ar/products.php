@@ -703,9 +703,9 @@ sort($categories);
         <div class="container">
             <div class="header-top-inner">
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/share/1Zxwg8MYh1/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/karamcompany0?igsh=cjIwZzNpczFib3d4"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/963933797873"><i class="fab fa-whatsapp"></i></a>
                 </div>
                 <nav class="top-nav">
                     <a href="index.php" class="active">الرئيسية</a>
@@ -718,8 +718,38 @@ sort($categories);
                         <i class="fas fa-globe"></i> English
                     </a>
                     <!-- <a href="#" class="btn-login">تسجيل الدخول</a> -->
-                    <a href="#contact" class="btn-cta">اتصل بنا</a>
+                    <a href="#contact" class="btn-cta">تواصل معنا</a>
                 </div>
+                <!-- Hamburger Menu Button -->
+                <button class="hamburger-menu" id="hamburgerMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-inner">
+            <div class="mobile-nav-header">
+                <div class="mobile-logo">
+                    <img src="../assets/white_logo.png" alt="Karam Logo">
+                </div>
+                <button class="mobile-close" id="mobileClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <nav class="mobile-nav-menu">
+                <a href="index.php" class="mobile-nav-link active">الرئيسية</a>
+                <a href="imports.php" class="mobile-nav-link">الواردات</a>
+                <a href="exports.php" class="mobile-nav-link">الصادرات</a>
+                <a href="products.php" class="mobile-nav-link">المتجر</a>
+            </nav>
+            <div class="mobile-social">
+                <a href="https://www.facebook.com/share/1Zxwg8MYh1/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/karamcompany0?igsh=cjIwZzNpczFib3d4"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/963933797873"><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
     </div>
@@ -786,15 +816,15 @@ sort($categories);
 <!-- ========== FOOTER ========== -->
 <footer class="footer">
     <div class="footer-social">
-        <a href="#"><i class="fab fa-youtube"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me/963933797873"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/karamcompany0?igsh=cjIwZzNpczFib3d4"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1Zxwg8MYh1/"><i class="fab fa-facebook-f"></i></a>
     </div>
     <div class="footer-bottom">
         <span>
             العربية &nbsp;|&nbsp;
             <a href="<?= $alt_lang_url ?>">English</a> &nbsp;|&nbsp;
-            حقوق الطبع والنشر © كارم
+           تم تطوير هذا الموقع من خلال وكالة سيدكو
         </span>
     </div>
 </footer>

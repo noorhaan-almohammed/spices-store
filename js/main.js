@@ -3,6 +3,58 @@
    ============================================ */
 
 document.addEventListener("DOMContentLoaded", function () {
+  /* ---- Hamburger Menu ---- */
+  function initHamburgerMenu() {
+    const hamburgerMenu = document.getElementById("hamburgerMenu");
+    const mobileNav = document.getElementById("mobileNav");
+    const mobileClose = document.getElementById("mobileClose");
+    const mobileLinks = document.querySelectorAll(".mobile-nav-link");
+
+    if (hamburgerMenu && mobileNav) {
+      // Toggle hamburger menu
+      hamburgerMenu.addEventListener("click", function() {
+        hamburgerMenu.classList.toggle("active");
+        mobileNav.classList.toggle("active");
+        document.body.style.overflow = mobileNav.classList.contains("active") ? "hidden" : "";
+      });
+
+      // Close mobile navigation
+      mobileClose.addEventListener("click", function() {
+        hamburgerMenu.classList.remove("active");
+        mobileNav.classList.remove("active");
+        document.body.style.overflow = "";
+      });
+
+      // Close on link click
+      mobileLinks.forEach(link => {
+        link.addEventListener("click", function() {
+          hamburgerMenu.classList.remove("active");
+          mobileNav.classList.remove("active");
+          document.body.style.overflow = "";
+        });
+      });
+
+      // Close on escape key
+      document.addEventListener("keydown", function(e) {
+        if (e.key === "Escape" && mobileNav.classList.contains("active")) {
+          hamburgerMenu.classList.remove("active");
+          mobileNav.classList.remove("active");
+          document.body.style.overflow = "";
+        }
+      });
+
+      // Close on outside click
+      document.addEventListener("click", function(e) {
+        if (!hamburgerMenu.contains(e.target) && !mobileNav.contains(e.target)) {
+          hamburgerMenu.classList.remove("active");
+          mobileNav.classList.remove("active");
+          document.body.style.overflow = "";
+        }
+      });
+    }
+  }
+  initHamburgerMenu();
+
   /* ---- AOS: Animate on Scroll ---- */
   function initAOS() {
     const elements = document.querySelectorAll("[data-aos]");
